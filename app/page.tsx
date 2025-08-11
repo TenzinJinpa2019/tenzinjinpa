@@ -18,21 +18,29 @@ export default function Page() {
       <section>
         <h2>Highlights</h2>
         <ul>
-          <div dangerouslySetInnerHTML={{ __html: `<li>Led 30+ AI & software projects from concept to commercialization.</li><li>Architected cloud-native solutions on Azure & AWS; integrated CI/CD.</li><li>Published AAAI research on code representation learning (UBC).</li>` }} />
+          <li>Led 30+ AI & software projects from concept to commercialization.</li>
+          <li>Architected cloud-native solutions on Azure & AWS; integrated CI/CD.</li>
+          <li>Published AAAI research on code representation learning (UBC).</li>
         </ul>
       </section>
 
       <section>
         <h2>Skills</h2>
         <ul>
-          <div dangerouslySetInnerHTML={{ __html: `<li>AI/ML: LLMs, NLP, Deep Learning, Generative AI</li><li>Cloud: Azure, AWS</li><li>Frameworks: PyTorch, TensorFlow, scikit-learn</li><li>DevOps: MLOps, CI/CD, Azure DevOps, Jenkins</li><li>Languages: Python, Java, C#, C</li>` }} />
+          <li>AI/ML: LLMs, NLP, Deep Learning, Generative AI</li>
+          <li>Cloud: Azure, AWS</li>
+          <li>Frameworks: PyTorch, TensorFlow, scikit-learn</li>
+          <li>DevOps: MLOps, CI/CD, Azure DevOps, Jenkins</li>
+          <li>Languages: Python, Java, C#, C</li>
         </ul>
       </section>
 
       <section>
         <h2>Selected Projects</h2>
         <ul>
-          <div dangerouslySetInnerHTML={{ __html: `<li><strong>Burnout Detection for Healthcare (LLMs)</strong>: Built a prototype leveraging industry datasets to detect burnout and generate tailored wellness plans.</li><li><strong>Retail Marketing Effort Estimation</strong>: Predicted setup effort using 1M+ data points; evaluated tree-based models and RNNs.</li><li><strong>Non-Invasive Blood Pressure via ECG</strong>: Led ML model development with <6.5 error; currently in field testing.</li>` }} />
+          <li><strong>Burnout Detection for Healthcare (LLMs)</strong>: Built a prototype leveraging industry datasets to detect burnout and generate tailored wellness plans.</li>
+          <li><strong>Retail Marketing Effort Estimation</strong>: Predicted setup effort using 1M+ data points; evaluated tree-based models and RNNs.</li>
+          <li><strong>Non-Invasive Blood Pressure via ECG</strong>: Led ML model development with &lt;6.5 error; currently in field testing.</li>
         </ul>
       </section>
 
